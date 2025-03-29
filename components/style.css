@@ -1,0 +1,59 @@
+body {
+    background-color: #20232A;
+    color: #ABB2BF;
+}
+.container-fluid {
+    background-color: #282C34;
+}
+.bg-light {
+    background-color: #3B4048 !important;
+}
+
+.border {
+    border-color: #4B5263 !important;
+}
+.form-control {
+    background-color: #3B4048;
+    color: #ABB2BF;
+    border: 1px solid #4B5263;
+}
+.form-control:focus {
+    background-color: #3B4048;
+    color: #ABB2BF;
+    border-color: #61AFEF;
+}
+.btn-primary {
+    background-color: #61AFEF;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #528BC3;
+}
+.user-panel {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    background-color: #3B4048;
+    padding: 10px;
+    text-align: center;
+    color: #ABB2BF;
+    border-top: 1px solid #4B5263;
+}
+
+a{
+    text-decoration: none;
+}
+
+ .list-group-item:not(.active) .channel-link:hover {
+     background-color: rgba(255, 255, 255, 0.1);
+ }
+
+.list-group-item {
+    transition: background-color 0.2s;
+}
+
+.list-group-item:not(.active) {
+    background-color: transparent;
+}
+
